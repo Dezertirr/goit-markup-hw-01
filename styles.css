@@ -1,0 +1,124 @@
+
+
+body {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #434455;
+}
+
+.headlogo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    color: #4D5AE5;
+    text-decoration: none;
+}
+
+.spanlogo {
+    color: #2E2F42;
+}
+
+.navlisthyperlink {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.navlisthyperlink:hover {
+    color: #434455;
+    text-decoration: underline;
+}
+.navlisthyperlink:focus {
+    color:#4D5AE5;
+    text-decoration: underline;
+}
+
+.contacts {
+text-decoration: none;
+color: #434455;
+}
+
+.business {
+    background-color: #2E2F42;
+    color: white;
+    font-weight: 700;
+font-size: 56px;
+line-height: 60px;
+padding-top: 6px;
+}
+.orderbutton {
+    background-color: #4D5AE5;
+    color: white;
+    cursor:pointer
+
+}
+.hiden {
+    display: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.services {
+    font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+}
+
+.photowork {
+    font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+}
+
+.secpersonal {
+    background-color: #F4F4FD;
+}
+
+.personal {
+    background-color: white;
+
+}
+
+.footer {
+    background-color: #2E2F42;
+}
+
+.footerlogo {font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    color: #4D5AE5;
+    text-decoration: none;
+}
+
+.footerspanlogo{
+    color:#F4F4FD
+
+}
+.footertext {
+    color: #E7E9FC;
+}
+
+
+/*Portfolio*/
+
+.portfoliobutton {
+    background: #F4F4FD;
+    border: none;
+}
+.portfoliobutton:hover {
+    background-color: #404BBF;
+}
+.portfoliobutton:focus {
+    background-color: #404BBF;
+    text-decoration: underline;
+    
+}
