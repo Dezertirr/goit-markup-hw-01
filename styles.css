@@ -120,5 +120,6 @@ line-height: 40px;
 .portfoliobutton:focus {
     background-color: #404BBF;
     text-decoration: underline;
+    cursor: pointer;
     
 }
