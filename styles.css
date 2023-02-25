@@ -13,6 +13,7 @@ font-size: 16px;
 line-height: 1.5;
 color: var(--maincolor);
 background-color: var(--background);
+letter-spacing: 0.02em;
 }
 
 .headlogo {
@@ -23,6 +24,7 @@ background-color: var(--background);
     line-height: 1.33;
     color: var(--linkscolor);
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 .spanlogo {
@@ -32,8 +34,8 @@ background-color: var(--background);
 .navlisthyperlink {
     text-decoration: none;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
+    color: var(--maincolor);
+
 }
 .navlisthyperlink:hover {
     color: var(--linkscolor);
@@ -53,6 +55,8 @@ font-style: normal;
 
 .business {
     background-color: var(--maincolor);
+}
+.business-title {
     color: var(--background);
 font-size: 56px;
 line-height: 1.07;
@@ -60,7 +64,8 @@ line-height: 1.07;
 .orderbutton {
     background-color: var(--linkscolor);
     color: var(--background);
-    cursor:pointer
+    cursor:pointer;
+    letter-spacing: 0.04em;
 
 }
 .hiden {
@@ -80,24 +85,19 @@ line-height: 1.07;
     list-style: none;
 }
 
-.futurestitle{
+.futures-title{
     font-size: 20px;
     line-height: 1.2;
-    color: var(--maincolor);
 }
 
-.futurestext {
-    font-size: 16px;
-    line-height: 1.5;
+.futures-text {
     color: var(--headercolor);
-
 }
 
-.sectiontitle {
-    font-weight: 700;
+.section-title {
 font-size: 36px;
 line-height: 1.11;
-color: var(--maincolor);
+text-transform: capitalize;
 }
 
 .secpersonal {
@@ -107,14 +107,12 @@ color: var(--maincolor);
 .personal {
     background-color: var(--background);
 }
-.teamname {
+.team-name {
     font-size: 20px;
     line-height: 1.2;
+    font-size: 500;
 }
-.teamposition {
-    font-size: 16px;
-    line-height: 1.5;
-
+.team-position {
 }
 
 .footer {
@@ -128,6 +126,7 @@ color: var(--maincolor);
     line-height: 1.33;
     color: var(--linkscolor);
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 .footerspanlogo{
@@ -136,7 +135,6 @@ color: var(--maincolor);
 }
 .footertext {
     color: var(--footertext);
-    letter-spacing: 0.02em
 }
 
 
@@ -155,16 +153,11 @@ color: var(--maincolor);
     cursor: pointer;
 }
 
-.portfoliotitle {
+.portfolio-title {
     font-size: 20px;
 line-height: 1.2;
 color: var(--maincolor);
-
 }
 
-.portfoliotext {
-    font-size: 16px;
-line-height: 1.5;
-color: var(--headercolor);
-
+.portfolio-text {
 }
