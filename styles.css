@@ -143,6 +143,7 @@ text-transform: capitalize;
 .portfoliobutton {
     background: var(--lightbackgroudcolor);
     border: none;
+    letter-spacing: 0.04em;
 }
 .portfoliobutton:hover {
     background-color: var(--linkscolor);
