@@ -37,12 +37,10 @@ letter-spacing: 0.02em;
     color: var(--maincolor);
 
 }
-.navlisthyperlink:hover {
+.navlisthyperlink:hover, .navlisthyperlink:focus {
     color: var(--linkscolor);
 }
-.navlisthyperlink:focus {
-    color:var(--linkscolor);
-}
+
 
 .contacts {
 text-decoration: none;
@@ -88,6 +86,7 @@ line-height: 1.07;
 .futures-title{
     font-size: 20px;
     line-height: 1.2;
+    font-weight: 500;
 }
 
 .futures-text {
@@ -110,9 +109,10 @@ text-transform: capitalize;
 .team-name {
     font-size: 20px;
     line-height: 1.2;
-    font-size: 500;
+    font-weight: 500;
 }
 .team-position {
+    color: var(--headercolor);
 }
 
 .footer {
@@ -144,21 +144,20 @@ text-transform: capitalize;
     background: var(--lightbackgroudcolor);
     border: none;
     letter-spacing: 0.04em;
-}
-.portfoliobutton:hover {
-    background-color: var(--linkscolor);
     cursor: pointer;
 }
-.portfoliobutton:focus {
+.portfoliobutton:hover,.portfoliobutton:focus {
     background-color: var(--linkscolor);
-    cursor: pointer;
+    color: var(--background);
 }
 
 .portfolio-title {
     font-size: 20px;
 line-height: 1.2;
 color: var(--maincolor);
+font-weight: 500;
 }
 
 .portfolio-text {
+    color: var(--headercolor);
 }
