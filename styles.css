@@ -1,0 +1,163 @@
+:root {
+    --maincolor:#2E2F42;
+    --headercolor:#434455;
+    --lightbackgroudcolor:#F4F4FD;
+    --linkscolor:#4D5AE5;
+    --background: #fff;
+    --footertext: #E7E9FC;
+}
+
+body {
+font-family: 'Roboto';
+font-size: 16px;
+line-height: 1.5;
+color: var(--maincolor);
+background-color: var(--background);
+letter-spacing: 0.02em;
+}
+
+.headlogo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    color: var(--linkscolor);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.spanlogo {
+    color: var(--headercolor);
+}
+
+.navlisthyperlink {
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--maincolor);
+
+}
+.navlisthyperlink:hover, .navlisthyperlink:focus {
+    color: var(--linkscolor);
+}
+
+
+.contacts {
+text-decoration: none;
+color: var(--headercolor);
+font-style: normal;
+}
+.contacts:hover {
+    color: var(--linkscolor);
+}
+
+.business {
+    background-color: var(--maincolor);
+}
+.business-title {
+    color: var(--background);
+font-size: 56px;
+line-height: 1.07;
+}
+.orderbutton {
+    background-color: var(--linkscolor);
+    color: var(--background);
+    cursor:pointer;
+    letter-spacing: 0.04em;
+
+}
+.hiden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+}
+
+.list {
+    list-style: none;
+}
+
+.futures-title{
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+}
+
+.futures-text {
+    color: var(--headercolor);
+}
+
+.section-title {
+font-size: 36px;
+line-height: 1.11;
+text-transform: capitalize;
+}
+
+.secpersonal {
+    background-color: var(--lightbackgroudcolor);
+}
+
+.personal {
+    background-color: var(--background);
+}
+.team-name {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+}
+.team-position {
+    color: var(--headercolor);
+}
+
+.footer {
+    background-color: var(--maincolor);
+}
+
+.footerlogo {font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    color: var(--linkscolor);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.footerspanlogo{
+    color:var(--lightbackgroudcolor)
+
+}
+.footertext {
+    color: var(--footertext);
+}
+
+
+/*Portfolio*/
+
+.portfoliobutton {
+    background: var(--lightbackgroudcolor);
+    border: none;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+.portfoliobutton:hover,.portfoliobutton:focus {
+    background-color: var(--linkscolor);
+    color: var(--background);
+}
+
+.portfolio-title {
+    font-size: 20px;
+line-height: 1.2;
+color: var(--maincolor);
+font-weight: 500;
+}
+
+.portfolio-text {
+    color: var(--headercolor);
+}
