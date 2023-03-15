@@ -8,14 +8,6 @@
     --hoverlink: #404BBF;
 }
 
-div section header {margin: 0;
-    padding: 0;}
-
-    div{
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-    
 ul{
     padding: 0;
     margin: 0;
@@ -31,14 +23,17 @@ p,a {
     margin: 0;
 }
 
-h2 h3{
+h1,h2,h3,h4,h5,h6 {
     margin: 0;
     padding: 0;
 }
 img {
-    margin: 0;
-    padding: 0;
     display: block;
+    max-width: 100%;
+}
+
+button {
+    border:none
 }
 
 body {
@@ -48,8 +43,6 @@ line-height: 1.5;
 color: var(--maincolor);
 background-color: var(--background);
 letter-spacing: 0.02em;
-margin: 0;
-padding: 0;
 }
 
 .head-container {
@@ -84,9 +77,6 @@ padding: 0;
     display: inline-flex;
 }
 
-.active-page {
-}
-
 .headnav {
     border-bottom: 1px solid var(--footertext);
     margin: auto;
@@ -112,14 +102,17 @@ padding: 0;
     text-decoration: none;
     font-weight: 500;
     color: var(--maincolor);
-    padding: 0 12px 0 12px;
 
 }
 
 .list-nav{
     display: inline-flex;
     list-style: none;
-    margin: 24px 0 24px 60px;
+    padding: 24px 0 24px 60px;
+}
+
+.list-item {
+    margin-left: 40px;
 }
 
 .active {
@@ -129,30 +122,30 @@ padding: 0;
 .navlisthyperlink:hover, .navlisthyperlink:focus {
     color: var(--hoverlink);
 }
+.address-list {
+    margin: 24px 0 24px 0;
+    text-align: right;
+}
 
 .list-contact{
     display: inline-flex;
     list-style: none;
 }
 
-.address-list {
-    margin: 24px 0 24px 0;
-    text-align: right;
-}
-
 .contacts {
 text-decoration: none;
 color: var(--headercolor);
 font-style: normal;
-padding-left: 40px ;
 }
 
 .contacts:hover {
     color: var(--hoverlink);
 }
 
-.section:first-of-type{
+.hero{
     background-color: var(--maincolor);
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .business-title {
@@ -170,17 +163,18 @@ text-align: center;
     cursor:pointer;
 width: 169px;
 height: 56px;
-left: 50%;
 margin: 0 auto;
 display: block;
 border-radius: 4px;
 letter-spacing: 0.04em;
-font-weight: 500;
-font-size: 16px;
 line-height: 24px;
 }
 
-.hiden {
+.orderbutton:hover, .orderbutton:focus {
+    background-color: var(--hoverlink);
+}
+
+.hidden {
         position: absolute;
         width: 1px;
         height: 1px;
@@ -218,9 +212,11 @@ line-height: 24px;
 .list-futures {
     display: flex;
     justify-content: space-around;
-    gap:24px;
+    gap:24px;   
+}
 
-    
+.section:last-child {
+    background-color: var(--lightbackgroudcolor);
 }
 
 .section-title {
@@ -270,13 +266,16 @@ border-radius: 0px 0px 4px 4px;
 
 }
 
+.team-description {
+    padding: 32px 16px;
+}
+
 .team-title{
     font-size: 36px;
 line-height: 1.11;
 text-transform: capitalize;
 text-align: center;
 margin-bottom: 72px;
-padding-top: 120px;
 }
 
 .team-name {
@@ -289,6 +288,7 @@ padding-top: 120px;
     color: var(--headercolor);
     text-align: center;
     padding-bottom: 32px;
+    margin-top: 8px;
 }
 
 .footer {
@@ -308,7 +308,7 @@ padding-top: 120px;
     text-transform: uppercase; 
 }
 
-.footerspanlogo{
+.footer-color-white{
     color:var(--lightbackgroudcolor)
 
 }
@@ -321,11 +321,17 @@ padding-top: 120px;
 
 
 /*Portfolio*/
+
+.portfolio {
+    padding-top: 96px;
+}
+
+
 .list-button {
     list-style: none;
     display: flex;
     justify-content: center;
-    padding: 96px 0 72px;
+    margin-bottom: 72px;
 }
 .button-apps-btn {
     margin-left:24px;
@@ -351,7 +357,7 @@ flex-grow: 0;
 color: var(--linkscolor);
 font-weight: 500;
 }
-.portfoliobutton:hover,.portfoliobutton:focus {
+.portfoliobutton:hover, .portfoliobutton:focus {
     background-color: var(--linkscolor);
     color: var(--background);
 }
@@ -361,16 +367,12 @@ font-weight: 500;
 line-height: 1.2;
 color: var(--maincolor);
 font-weight: 500;
-padding-left: 16px;
 padding-bottom: 8px;
 margin: 0;
-padding-top: 32px;
 }
 
 .portfolio-text {
     color: var(--headercolor);
-    padding-left: 16px;
-    padding-bottom:32px ;
 }
 
 .apps-list {
@@ -393,4 +395,9 @@ padding-top: 32px;
     border-bottom: 1px solid var(--footertext);
     border-left: 1px solid var(--footertext);
     border-right: 1px solid var(--footertext);
+    padding-left: 16px;
+    padding-bottom:32px ;
+    padding-top: 32px;
+
+
 }
