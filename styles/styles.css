@@ -151,6 +151,8 @@ padding-left: 40px ;
     color: var(--background);
 font-size: 56px;
 line-height: 1.07;
+margin: 0 auto 48px;
+max-width: 496px;
 text-align: center;
 }
 
