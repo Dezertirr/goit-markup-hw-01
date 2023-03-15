@@ -26,7 +26,7 @@ li{
     margin: 0;
 }
 
-p a {
+p,a {
     padding: 0;
     margin: 0;
 }
@@ -228,7 +228,7 @@ padding-top: 120px;
     padding: 0 0 120px;
 }
 
-.section-team {
+.section-team{
     background-color: var(--lightbackgroudcolor);
     padding-bottom: 120px;
 }
@@ -272,6 +272,7 @@ border-radius: 0px 0px 4px 4px;
 .team-position {
     color: var(--headercolor);
     text-align: center;
+    padding-bottom: 32px;
 }
 
 .footer {
